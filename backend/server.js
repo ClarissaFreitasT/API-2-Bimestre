@@ -2,14 +2,14 @@ const express = require("express");
 const {
     criarUsuario,
     loginUsuario
-} = require("./users");
+} = require("./src/models/users.model.js");
 
 const {
     criarRoteiro,
     publicarRoteiro,
     atualizarRoteiro,
     deletarRoteiro
-} = require("./roteiro");
+} = require("./src/models/roteiro.model.js");
 
 const app = express();
 app.use(express.json());

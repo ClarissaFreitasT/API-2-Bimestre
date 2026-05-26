@@ -1,16 +1,11 @@
 {
   "name": "js-basico",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "batata": "node src/index.js",
-    "dev": "np src/server.js"
-=======
-    "dev": "nodemon server.js"
->>>>>>> 527d004 (Upload para API-2-Bimestre)
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -25,14 +20,11 @@
   "homepage": "https://github.com/h-fcosta/js-basico#readme",
   "description": "",
   "dependencies": {
-<<<<<<< HEAD
+    "@prisma/client": "^7.8.0",
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
-=======
-    "express": "^5.2.1",
-    "node.js": "^0.0.1-security"
->>>>>>> 527d004 (Upload para API-2-Bimestre)
+    "nodemon": "^3.1.14",
+    "prisma": "^7.8.0"
   }
 }

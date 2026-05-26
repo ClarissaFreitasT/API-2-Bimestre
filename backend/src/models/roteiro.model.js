@@ -23,9 +23,9 @@ function obterRoteiroPorId(id) {
     if (!roteiro) {
         throw new Error("Roteiro não encontrado.");
     }
-    if (!Array.isArray(lugares) || lugares.length === 0) {
-    throw new Error("O roteiro precisa ter pelo menos um lugar.");
-}
+    if (!Array.isArray(roteiro.lugares) || roteiro.lugares.length === 0) {
+        throw new Error("O roteiro precisa ter pelo menos um lugar.");
+    }
 
     return roteiro;
 }
